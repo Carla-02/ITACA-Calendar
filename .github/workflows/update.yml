@@ -1,0 +1,103 @@
+name: Actualizar datos y publicar
+
+on:
+  schedule:
+    # Lunes a las 10:00 hora de Madrid. GitHub programa en UTC, así que se lanzan
+    # las dos posibles horas (08:00 en verano, 09:00 en invierno) y el script solo
+    # actúa cuando en Madrid son las 10 (--only-if-madrid-hour 10).
+    - cron: "0 8 * * 1"
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Forzar (permite que bajen los resultados y ejecutar fuera de temporada)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths-ignore: ["data/**", "calendar.ics", "README.md", "tests/**", "scripts/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      skipped: ${{ steps.run.outputs.skipped }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Actualizar datos desde la FVBCV
+        id: run
+        run: |
+          ARGS=""
+          if [ "${{ github.event_name }}" = "schedule" ]; then ARGS="--only-if-madrid-hour 10"; fi
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          python scripts/update.py $ARGS
+
+      - name: Guardar texto de diagnóstico (solo si falla)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostico
+          path: diag/
+          if-no-files-found: ignore
+
+      - name: Guardar cambios en el repositorio
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data calendar.ics
+          if git diff --cached --quiet; then
+            echo "Sin cambios que guardar."
+          else
+            git commit -m "Actualización de datos"
+            git pull --rebase origin main
+            git push
+          fi
+
+  deploy:
+    needs: update
+    if: ${{ !cancelled() && needs.update.outputs.skipped != 'true' }}
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/configure-pages@v5
+
+      - name: Preparar el sitio
+        run: |
+          mkdir _site
+          cp index.html calendar.ics _site/
+          cp -r data _site/data
+          touch _site/.nojekyll
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
