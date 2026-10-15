@@ -1,0 +1,21 @@
+{
+  "last_attempt": "2026-10-13T20:35:00+02:00",
+  "last_outcome": "ok",
+  "last_success": "2026-10-13T20:35:00+02:00",
+  "last_error": null,
+  "consecutive_failures": 0,
+  "source_printed_at": "2026-10-13T20:29:00+02:00",
+  "counts": {
+    "partidos": 24,
+    "jugados": 2,
+    "cambios": 26
+  },
+  "recent_runs": [
+    {
+      "at": "2026-10-13T20:35:00+02:00",
+      "outcome": "ok",
+      "origin": "carga_inicial",
+      "detail": "26 cambios"
+    }
+  ]
+}

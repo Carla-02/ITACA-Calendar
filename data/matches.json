@@ -1,0 +1,683 @@
+{
+  "team": {
+    "name": "CV ITACA - A",
+    "display": "Itaca A",
+    "calendar_name": "CV Itaca - A"
+  },
+  "competition": "2ª DIVISIÓN SENIOR MASCULINO - 1ª FASE - GRUPO 1",
+  "season": "Temporada 2026-2027",
+  "source": {
+    "name": "Exportación oficial de la FVBCV (PDF)",
+    "url": "https://fvbcv.com/exportar_competiciones.php?idens=1823",
+    "page": "https://fvbcv.com/competiciones/2a-division-senior-masculino-2026-2027/",
+    "printed_at": "2026-10-13T20:29:00+02:00"
+  },
+  "matches": [
+    {
+      "id": "g1-j01-cv-itaca-a-cv-itaca-b",
+      "jornada": 1,
+      "date": "2026-10-04",
+      "time": "20:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "CV ITACA - B",
+      "team_is_home": true,
+      "opponent": "CV ITACA - B",
+      "opponent_display": "Itaca B",
+      "venue": "PAB. POL. SARA MORENO Y VICENTE LLI (MONCADA)",
+      "venue_display": "Pab. Pol. Sara Moreno y Vicente Lli (Moncada)",
+      "result": {
+        "home_sets": 3,
+        "away_sets": 0,
+        "sets": [
+          [
+            25,
+            7
+          ],
+          [
+            25,
+            14
+          ],
+          [
+            25,
+            16
+          ]
+        ]
+      },
+      "status": "jugado",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j02-cv-cid-campeador-rojo-cv-itaca-a",
+      "jornada": 2,
+      "date": "2026-10-10",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV CID CAMPEADOR ROJO",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "CV CID CAMPEADOR ROJO",
+      "opponent_display": "Cid Campeador Rojo",
+      "venue": "PAB.MUN. NAZARET (VALENCIA)",
+      "venue_display": "Pab.Mun. Nazaret (Valencia)",
+      "result": {
+        "home_sets": 3,
+        "away_sets": 2,
+        "sets": [
+          [
+            28,
+            26
+          ],
+          [
+            12,
+            25
+          ],
+          [
+            25,
+            22
+          ],
+          [
+            18,
+            25
+          ],
+          [
+            15,
+            11
+          ]
+        ]
+      },
+      "status": "jugado",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j03-cv-itaca-a-cv-stella-maris-nautilus",
+      "jornada": 3,
+      "date": "2026-10-18",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "CV STELLA MARIS NAUTILUS",
+      "team_is_home": true,
+      "opponent": "CV STELLA MARIS NAUTILUS",
+      "opponent_display": "Stella Maris Nautilus",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j04-cv-vila-real-cv-itaca-a",
+      "jornada": 4,
+      "date": "2026-10-24",
+      "time": null,
+      "bye": false,
+      "home": "CV VILA-REAL",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "CV VILA-REAL",
+      "opponent_display": "Vila-real",
+      "venue": "PAB. JB LLORENS (VILA-REAL)",
+      "venue_display": "Pab. Jb Llorens (Vila-real)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j05-cv-itaca-a-cv-mediterraneo-c",
+      "jornada": 5,
+      "date": "2026-11-01",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "CV MEDITERRÁNEO - C",
+      "team_is_home": true,
+      "opponent": "CV MEDITERRÁNEO - C",
+      "opponent_display": "Mediterráneo C",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j06-cv-morvedre-canet-cv-itaca-a",
+      "jornada": 6,
+      "date": "2026-11-07",
+      "time": null,
+      "bye": false,
+      "home": "CV MORVEDRE CANET",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "CV MORVEDRE CANET",
+      "opponent_display": "Morvedre Canet",
+      "venue": "PISTA POLID. MUN. CANET D'EN BERENGUER",
+      "venue_display": "Pista Polid. Mun. Canet d'en Berenguer",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j07-cv-itaca-a-voley-quart",
+      "jornada": 7,
+      "date": "2026-11-15",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "VOLEY QUART",
+      "team_is_home": true,
+      "opponent": "VOLEY QUART",
+      "opponent_display": "Voley Quart",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j08-cv-camp-de-turia-b-cv-itaca-a",
+      "jornada": 8,
+      "date": "2026-11-21",
+      "time": "20:00",
+      "bye": false,
+      "home": "CV CAMP DE TURIA - B",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "CV CAMP DE TURIA - B",
+      "opponent_display": "Camp de Turia B",
+      "venue": "P.D. POBLA VALLBONA (PAB. PISTA CENTRAL)",
+      "venue_display": "P.D. Pobla Vallbona (Pab. Pista Central)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j09-cv-itaca-a-el-pilar-valencia",
+      "jornada": 9,
+      "date": "2026-11-29",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "EL PILAR (VALENCIA)",
+      "team_is_home": true,
+      "opponent": "EL PILAR (VALENCIA)",
+      "opponent_display": "El Pilar (Valencia)",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j10-blu-volley-mas-camarena-cv-itaca-a",
+      "jornada": 10,
+      "date": "2026-12-05",
+      "time": "18:00",
+      "bye": false,
+      "home": "BLU VOLLEY MAS CAMARENA",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "BLU VOLLEY MAS CAMARENA",
+      "opponent_display": "Blu Volley Mas Camarena",
+      "venue": "RESORT MAS CAMARENA (PISTA 2)",
+      "venue_display": "Resort Mas Camarena (Pista 2)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j11-cv-itaca-a-cv-stella-maris-tiburones",
+      "jornada": 11,
+      "date": "2026-12-13",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "CV STELLA MARIS TIBURONES",
+      "team_is_home": true,
+      "opponent": "CV STELLA MARIS TIBURONES",
+      "opponent_display": "Stella Maris Tiburones",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j12-cv-cid-campeador-negro-cv-itaca-a",
+      "jornada": 12,
+      "date": "2026-12-19",
+      "time": null,
+      "bye": false,
+      "home": "CV CID CAMPEADOR NEGRO",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "CV CID CAMPEADOR NEGRO",
+      "opponent_display": "Cid Campeador Negro",
+      "venue": "IES CID CAMPEADOR (VALENCIA)",
+      "venue_display": "Ies Cid Campeador (Valencia)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j13-bye",
+      "jornada": 13,
+      "date": "2027-01-10",
+      "time": "16:00",
+      "bye": true,
+      "home": "CV ITACA - A",
+      "away": "DESCANSA",
+      "team_is_home": true,
+      "opponent": "DESCANSA",
+      "opponent_display": "Descansa",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "descanso",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j14-cv-itaca-b-cv-itaca-a",
+      "jornada": 14,
+      "date": "2027-01-17",
+      "time": null,
+      "bye": false,
+      "home": "CV ITACA - B",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "CV ITACA - B",
+      "opponent_display": "Itaca B",
+      "venue": "PAB. POL. SARA MORENO Y VICENTE LLI (MONCADA)",
+      "venue_display": "Pab. Pol. Sara Moreno y Vicente Lli (Moncada)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j15-cv-itaca-a-cv-cid-campeador-rojo",
+      "jornada": 15,
+      "date": "2027-01-24",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "CV CID CAMPEADOR ROJO",
+      "team_is_home": true,
+      "opponent": "CV CID CAMPEADOR ROJO",
+      "opponent_display": "Cid Campeador Rojo",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j16-cv-stella-maris-nautilus-cv-itaca-a",
+      "jornada": 16,
+      "date": "2027-01-30",
+      "time": "18:00",
+      "bye": false,
+      "home": "CV STELLA MARIS NAUTILUS",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "CV STELLA MARIS NAUTILUS",
+      "opponent_display": "Stella Maris Nautilus",
+      "venue": "POL. INTERNUCLEOS (PTO. SAGUNTO)",
+      "venue_display": "Pol. Internucleos (Pto. Sagunto)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j17-cv-itaca-a-cv-vila-real",
+      "jornada": 17,
+      "date": "2027-02-14",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "CV VILA-REAL",
+      "team_is_home": true,
+      "opponent": "CV VILA-REAL",
+      "opponent_display": "Vila-real",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j18-cv-mediterraneo-c-cv-itaca-a",
+      "jornada": 18,
+      "date": "2027-02-20",
+      "time": "19:00",
+      "bye": false,
+      "home": "CV MEDITERRÁNEO - C",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "CV MEDITERRÁNEO - C",
+      "opponent_display": "Mediterráneo C",
+      "venue": "PAB. PABLO HERRERA (PISTA CASTELLON) (P.1)",
+      "venue_display": "Pab. Pablo Herrera (Pista Castellon) (P.1)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j19-cv-itaca-a-cv-morvedre-canet",
+      "jornada": 19,
+      "date": "2027-02-28",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "CV MORVEDRE CANET",
+      "team_is_home": true,
+      "opponent": "CV MORVEDRE CANET",
+      "opponent_display": "Morvedre Canet",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j20-voley-quart-cv-itaca-a",
+      "jornada": 20,
+      "date": "2027-03-06",
+      "time": "20:00",
+      "bye": false,
+      "home": "VOLEY QUART",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "VOLEY QUART",
+      "opponent_display": "Voley Quart",
+      "venue": "PAB.MUN. QUART POBLET",
+      "venue_display": "Pab.Mun. Quart Poblet",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j21-cv-itaca-a-cv-camp-de-turia-b",
+      "jornada": 21,
+      "date": "2027-03-14",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "CV CAMP DE TURIA - B",
+      "team_is_home": true,
+      "opponent": "CV CAMP DE TURIA - B",
+      "opponent_display": "Camp de Turia B",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j22-el-pilar-valencia-cv-itaca-a",
+      "jornada": 22,
+      "date": "2027-03-21",
+      "time": "12:00",
+      "bye": false,
+      "home": "EL PILAR (VALENCIA)",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "EL PILAR (VALENCIA)",
+      "opponent_display": "El Pilar (Valencia)",
+      "venue": "COLEGIO EL PILAR (VALENCIA)",
+      "venue_display": "Colegio El Pilar (Valencia)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j23-cv-itaca-a-blu-volley-mas-camarena",
+      "jornada": 23,
+      "date": "2027-04-11",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "BLU VOLLEY MAS CAMARENA",
+      "team_is_home": true,
+      "opponent": "BLU VOLLEY MAS CAMARENA",
+      "opponent_display": "Blu Volley Mas Camarena",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j24-cv-stella-maris-tiburones-cv-itaca-a",
+      "jornada": 24,
+      "date": "2027-04-17",
+      "time": "20:00",
+      "bye": false,
+      "home": "CV STELLA MARIS TIBURONES",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "CV STELLA MARIS TIBURONES",
+      "opponent_display": "Stella Maris Tiburones",
+      "venue": "POL. INTERNUCLEOS (PTO. SAGUNTO)",
+      "venue_display": "Pol. Internucleos (Pto. Sagunto)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j25-cv-itaca-a-cv-cid-campeador-negro",
+      "jornada": 25,
+      "date": "2027-04-25",
+      "time": "16:00",
+      "bye": false,
+      "home": "CV ITACA - A",
+      "away": "CV CID CAMPEADOR NEGRO",
+      "team_is_home": true,
+      "opponent": "CV CID CAMPEADOR NEGRO",
+      "opponent_display": "Cid Campeador Negro",
+      "venue": "META CLUB DEPORTIVO (MASSANASSA)",
+      "venue_display": "Meta Club Deportivo (Massanassa)",
+      "result": null,
+      "status": "pendiente",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    },
+    {
+      "id": "g1-j26-bye",
+      "jornada": 26,
+      "date": "2027-05-01",
+      "time": null,
+      "bye": true,
+      "home": "DESCANSA",
+      "away": "CV ITACA - A",
+      "team_is_home": false,
+      "opponent": "DESCANSA",
+      "opponent_display": "Descansa",
+      "venue": "",
+      "venue_display": "",
+      "result": null,
+      "status": "descanso",
+      "source": {
+        "printed_at": "2026-10-13T20:29:00+02:00"
+      },
+      "first_seen": "2026-10-13T20:35:00+02:00",
+      "last_seen": "2026-10-13T20:35:00+02:00",
+      "last_changed": "2026-10-13T20:35:00+02:00",
+      "revision": 1,
+      "active": true
+    }
+  ]
+}

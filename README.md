@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/33406876/README.md)
 # CV Itaca - A, calendario que se actualiza solo
 
 Página web con todos los partidos del CV Itaca - A (2ª División Senior Masculino, grupo 1) y la clasificación de la liga. Cada lunes a las 10:00 (hora de Madrid) un script consulta la exportación oficial de la FVBCV, comprueba los datos, los guarda en este repositorio y vuelve a publicar la página.

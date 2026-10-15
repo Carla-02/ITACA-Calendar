@@ -1,0 +1,26 @@
+{
+  "team": {
+    "name": "CV ITACA - A",
+    "display": "Itaca A",
+    "calendar_name": "CV Itaca - A"
+  },
+  "group_number": 1,
+  "group_id": 1823,
+  "source": {
+    "name": "Exportación oficial de la FVBCV (PDF)",
+    "url": "https://fvbcv.com/exportar_competiciones.php?idens=1823",
+    "page": "https://fvbcv.com/competiciones/2a-division-senior-masculino-2026-2027/"
+  },
+  "expected": {
+    "jornadas": 26,
+    "min_teams": 10
+  },
+  "season_start": "2026-09-01",
+  "season_end": "2027-06-30",
+  "http": {
+    "timeout_seconds": 30,
+    "retries": 3,
+    "user_agent": "CV-Itaca-A-calendario/1.0 (uso interno del equipo, una consulta por semana)"
+  },
+  "schedule_note": "La hora y el día reales están en .github/workflows/update.yml (lunes 10:00, hora de Madrid)."
+}
