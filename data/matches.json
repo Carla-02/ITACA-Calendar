@@ -10,7 +10,7 @@
     "name": "Exportación oficial de la FVBCV (PDF)",
     "url": "https://fvbcv.com/exportar_competiciones.php?idens=1823",
     "page": "https://fvbcv.com/competiciones/2a-division-senior-masculino-2026-2027/",
-    "printed_at": "2026-10-15T18:07:00+02:00"
+    "printed_at": "2026-10-15T18:13:00+02:00"
   },
   "matches": [
     {
@@ -46,10 +46,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -95,10 +95,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -119,10 +119,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -143,10 +143,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -167,10 +167,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -191,10 +191,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -215,10 +215,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -239,10 +239,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -263,10 +263,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -287,10 +287,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -311,10 +311,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -335,10 +335,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -359,10 +359,10 @@
       "result": null,
       "status": "descanso",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -383,10 +383,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -407,10 +407,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -431,10 +431,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -455,10 +455,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -479,10 +479,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -503,10 +503,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -527,10 +527,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -551,10 +551,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -575,10 +575,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -599,10 +599,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -623,10 +623,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -647,10 +647,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -671,10 +671,10 @@
       "result": null,
       "status": "descanso",
       "source": {
-        "printed_at": "2026-10-15T18:07:00+02:00"
+        "printed_at": "2026-10-15T18:13:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:07:43+02:00",
+      "last_seen": "2026-10-15T20:13:05+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
