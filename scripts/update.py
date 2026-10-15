@@ -193,7 +193,7 @@ def split_teams(rest: str, teams_by_len: list):
     return None
 
 
-def parse_export(text: str, team: str, group_id: int = 1) -> dict:
+def parse_export(text: str, team: str, group_id: int = 1, printed_tz: str = "UTC") -> dict:
     lines = list(clean_lines(text))
     if len(lines) < 10:
         raise ParseError("El texto extraído es demasiado corto")
@@ -203,7 +203,9 @@ def parse_export(text: str, team: str, group_id: int = 1) -> dict:
         m = PRINTED.search(line)
         if m:
             d, mo, y, h, mi = map(int, m.groups())
-            printed = datetime(y, mo, d, h, mi, tzinfo=MADRID)
+            # El servidor de la FVBCV imprime esta hora en UTC (comprobado el 15/10/2026:
+            # a las 20:07 de Madrid el PDF decía 18:07). Se convierte a hora de Madrid.
+            printed = datetime(y, mo, d, h, mi, tzinfo=ZoneInfo(printed_tz)).astimezone(MADRID)
             break
     if printed is None:
         raise ParseError("No se encontró la fecha de impresión del documento")
@@ -458,6 +460,25 @@ def record_run(status: dict, now: datetime, outcome: str, origin: str, detail: s
     return status
 
 
+def scheduled_skip_reason(now: datetime, from_hour: int, status: dict) -> str | None:
+    """Motivo para no actuar en una ejecución programada, o None si toca actuar.
+
+    GitHub puede retrasar las tareas programadas; por eso no se exige una hora exacta:
+    basta con que en Madrid sean las `from_hour` o más y que hoy no haya ya una
+    ejecución programada correcta (si la anterior falló, se reintenta)."""
+    local = now.astimezone(MADRID)
+    if local.hour < from_hour:
+        return f"Aún no son las {from_hour}:00 en Madrid"
+    for run in status.get("recent_runs", []):
+        try:
+            at = datetime.fromisoformat(run["at"]).astimezone(MADRID)
+        except (KeyError, ValueError):
+            continue
+        if at.date() == local.date() and run.get("origin") == "programada" and run.get("outcome") != "error":
+            return "Hoy ya hubo una actualización programada correcta"
+    return None
+
+
 def detect_origin(arg: str | None) -> str:
     if arg:
         return arg
@@ -475,6 +496,9 @@ def main(argv=None) -> int:
     ap.add_argument("--dry-run", action="store_true", help="validar sin guardar nada")
     ap.add_argument("--force", action="store_true", help="permitir que bajen los resultados y saltar la fecha de fin de temporada")
     ap.add_argument("--only-if-madrid-hour", type=int, help="salir sin hacer nada si no es esa hora en Madrid")
+    ap.add_argument("--scheduled-from-madrid-hour", type=int,
+                    help="ejecución programada: actuar solo a partir de esa hora de Madrid y si hoy "
+                         "no ha habido ya una ejecución programada correcta")
     ap.add_argument("--now", help="fecha y hora ISO a usar como 'ahora' (pruebas)")
     ap.add_argument("--origin", help="programada | manual | local | carga_inicial")
     args = ap.parse_args(argv)
@@ -489,6 +513,13 @@ def main(argv=None) -> int:
         print("Fuera de la hora programada en Madrid; no se hace nada.")
         set_output("skipped", "true")
         return 0
+    if args.scheduled_from_madrid_hour is not None:
+        reason = scheduled_skip_reason(now, args.scheduled_from_madrid_hour,
+                                       read_json(data_dir / "status.json", {}))
+        if reason:
+            print(reason + "; no se hace nada.")
+            set_output("skipped", "true")
+            return 0
     if not args.force and now.date() > date.fromisoformat(cfg["season_end"]):
         print("La temporada ha terminado; no se hace nada (usa --force para ejecutarlo igualmente).")
         set_output("skipped", "true")
@@ -505,7 +536,8 @@ def main(argv=None) -> int:
             pdf = fetch_export(cfg["source"]["url"], http["timeout_seconds"], http["retries"], http["user_agent"])
             text = pdf_to_text(pdf)
 
-        parsed = parse_export(text, cfg["team"]["name"], cfg["group_number"])
+        parsed = parse_export(text, cfg["team"]["name"], cfg["group_number"],
+                              cfg["source"].get("printed_tz", "UTC"))
         matches_doc = read_json(data_dir / "matches.json", {"matches": []})
         previous = matches_doc.get("matches", [])
         validate(parsed, cfg, previous, force=args.force)

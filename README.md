@@ -35,7 +35,7 @@ FVBCV (PDF oficial)  ->  scripts/update.py  ->  data/*.json + calendar.ics  ->  
 
 ## Cambiar el día o la hora
 
-Edita `.github/workflows/update.yml`: las líneas `cron` (en UTC, `1` = lunes) y el número de `--only-if-madrid-hour`. Con las dos líneas actuales (08:00 y 09:00 UTC) el script solo actúa cuando en Madrid son las 10, en verano y en invierno.
+Edita `.github/workflows/update.yml`: las líneas `cron` (en UTC, `1` = lunes) y el número de `--scheduled-from-madrid-hour`. Con las líneas actuales (08:00 y 09:00 UTC, más un reintento a las 11:17 UTC) el script actúa una sola vez cada lunes, a partir de las 10 en Madrid, en verano y en invierno. Si GitHub retrasa la tarea, se actualiza igualmente ese día; si la primera falla, el reintento lo vuelve a intentar.
 
 ## Archivos
 

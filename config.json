@@ -9,7 +9,8 @@
   "source": {
     "name": "Exportación oficial de la FVBCV (PDF)",
     "url": "https://fvbcv.com/exportar_competiciones.php?idens=1823",
-    "page": "https://fvbcv.com/competiciones/2a-division-senior-masculino-2026-2027/"
+    "page": "https://fvbcv.com/competiciones/2a-division-senior-masculino-2026-2027/",
+    "printed_tz": "UTC"
   },
   "expected": {
     "jornadas": 26,

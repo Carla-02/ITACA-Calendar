@@ -3,10 +3,12 @@ name: Actualizar datos y publicar
 on:
   schedule:
     # Lunes a las 10:00 hora de Madrid. GitHub programa en UTC, así que se lanzan
-    # las dos posibles horas (08:00 en verano, 09:00 en invierno) y el script solo
-    # actúa cuando en Madrid son las 10 (--only-if-madrid-hour 10).
+    # las dos posibles horas (08:00 en verano, 09:00 en invierno) más un reintento
+    # a las 11:17 UTC por si GitHub retrasa o pierde las anteriores. El script solo
+    # actúa a partir de las 10 en Madrid y una vez por lunes (--scheduled-from-madrid-hour 10).
     - cron: "0 8 * * 1"
     - cron: "0 9 * * 1"
+    - cron: "17 11 * * 1"
   workflow_dispatch:
     inputs:
       force:
@@ -29,7 +31,7 @@ concurrency:
 jobs:
   update:
     if: github.event_name != 'push'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     outputs:
       skipped: ${{ steps.run.outputs.skipped }}
@@ -48,7 +50,7 @@ jobs:
         id: run
         run: |
           ARGS=""
-          if [ "${{ github.event_name }}" = "schedule" ]; then ARGS="--only-if-madrid-hour 10"; fi
+          if [ "${{ github.event_name }}" = "schedule" ]; then ARGS="--scheduled-from-madrid-hour 10"; fi
           if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
           python scripts/update.py $ARGS
 
@@ -77,7 +79,7 @@ jobs:
   deploy:
     needs: update
     if: ${{ !cancelled() && needs.update.outputs.skipped != 'true' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

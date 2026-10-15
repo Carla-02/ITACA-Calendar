@@ -87,7 +87,13 @@ class ParseTests(unittest.TestCase):
         self.assertEqual((mine["pos"], mine["pts"], mine["pj"]), (2, 4, 2))
 
     def test_fecha_de_impresion(self):
-        self.assertEqual(self.parsed["printed_at"].strftime("%Y-%m-%d %H:%M"), "2026-10-13 20:29")
+        # El PDF trae la hora en UTC (20:29); en Madrid (verano, UTC+2) son las 22:29.
+        self.assertEqual(update.iso(self.parsed["printed_at"]), "2026-10-13T22:29:00+02:00")
+
+    def test_fecha_de_impresion_en_invierno(self):
+        text = FIXTURE.replace("Fecha de impresión: 13-10-2026 20:29", "Fecha de impresión: 07-12-2026 09:05")
+        parsed = update.parse_export(text, "CV ITACA - A", 1)
+        self.assertEqual(update.iso(parsed["printed_at"]), "2026-12-07T10:05:00+01:00")
 
     def test_pretty(self):
         self.assertEqual(update.pretty("CV MEDITERRÁNEO - C"), "Mediterráneo C")
@@ -193,6 +199,8 @@ class ErroresTests(unittest.TestCase):
     def test_fallo_de_red_no_toca_los_datos_y_registra_el_error(self):
         tmp = sandbox()
         before = {n: (tmp / "data" / n).read_bytes() for n in ("matches.json", "standings.json")}
+        prev = load(tmp, "status.json")
+        prev_success, prev_failures = prev["last_success"], prev.get("consecutive_failures", 0)
         with mock.patch("update.fetch_export", side_effect=update.FetchError("sin red")):
             self.assertEqual(run(tmp), 1)
         for n, b in before.items():
@@ -200,8 +208,8 @@ class ErroresTests(unittest.TestCase):
         st = load(tmp, "status.json")
         self.assertEqual(st["last_outcome"], "error")
         self.assertEqual(st["last_error"]["kind"], "conexion")
-        self.assertEqual(st["consecutive_failures"], 1)
-        self.assertEqual(st["last_success"], "2026-10-13T20:35:00+02:00")  # se conserva la última correcta
+        self.assertEqual(st["consecutive_failures"], prev_failures + 1)
+        self.assertEqual(st["last_success"], prev_success)  # se conserva la última correcta
         shutil.rmtree(tmp)
 
     def test_estructura_rota_guarda_diagnostico_y_no_toca_datos(self):
@@ -226,6 +234,44 @@ class ProgramacionTests(unittest.TestCase):
         self.assertEqual(run(tmp, FIXTURE, extra=["--only-if-madrid-hour", "10"], now="2026-12-07T10:00:00+01:00"), 0)
         self.assertEqual(load(tmp, "status.json")["last_attempt"], "2026-12-07T10:00:00+01:00")
         shutil.rmtree(tmp)
+
+    PROG = ["--scheduled-from-madrid-hour", "10", "--origin", "programada"]
+
+    def test_programada_antes_de_las_10_no_hace_nada(self):
+        tmp = sandbox()
+        before = (tmp / "data" / "status.json").read_bytes()
+        self.assertEqual(run(tmp, FIXTURE, extra=self.PROG, now="2026-12-07T09:00:00+01:00"), 0)
+        self.assertEqual((tmp / "data" / "status.json").read_bytes(), before)
+        shutil.rmtree(tmp)
+
+    def test_programada_con_retraso_si_actualiza(self):
+        # GitHub retrasa la tarea más de una hora: aun así debe actualizar ese lunes.
+        tmp = sandbox()
+        self.assertEqual(run(tmp, FIXTURE, extra=self.PROG, now="2026-12-07T11:20:00+01:00"), 0)
+        st = load(tmp, "status.json")
+        self.assertEqual(st["last_attempt"], "2026-12-07T11:20:00+01:00")
+        self.assertEqual(st["recent_runs"][0]["origin"], "programada")
+        shutil.rmtree(tmp)
+
+    def test_programada_solo_una_vez_al_dia(self):
+        tmp = sandbox()
+        self.assertEqual(run(tmp, FIXTURE, extra=self.PROG, now="2026-10-19T10:00:00+02:00"), 0)
+        before = (tmp / "data" / "status.json").read_bytes()
+        self.assertEqual(run(tmp, FIXTURE, extra=self.PROG, now="2026-10-19T11:00:00+02:00"), 0)
+        self.assertEqual((tmp / "data" / "status.json").read_bytes(), before)
+        shutil.rmtree(tmp)
+
+    def test_programada_reintenta_si_la_anterior_fallo(self):
+        status = {"recent_runs": [{"at": "2026-10-19T10:00:05+02:00", "outcome": "error", "origin": "programada"}]}
+        now = update.datetime.fromisoformat("2026-10-19T13:17:00+02:00")
+        self.assertIsNone(update.scheduled_skip_reason(now, 10, status))
+        status["recent_runs"][0]["outcome"] = "sin_cambios"
+        self.assertIsNotNone(update.scheduled_skip_reason(now, 10, status))
+
+    def test_ejecucion_manual_no_bloquea_la_programada(self):
+        status = {"recent_runs": [{"at": "2026-10-19T09:30:00+02:00", "outcome": "ok", "origin": "manual"}]}
+        now = update.datetime.fromisoformat("2026-10-19T10:00:00+02:00")
+        self.assertIsNone(update.scheduled_skip_reason(now, 10, status))
 
     def test_fuera_de_temporada(self):
         tmp = sandbox()
