@@ -1,16 +1,22 @@
 {
-  "last_attempt": "2026-10-15T20:19:53+02:00",
-  "last_outcome": "sin_cambios",
-  "last_success": "2026-10-15T20:19:53+02:00",
+  "last_attempt": "2026-10-19T10:30:52+02:00",
+  "last_outcome": "ok",
+  "last_success": "2026-10-19T10:30:52+02:00",
   "last_error": null,
   "consecutive_failures": 0,
-  "source_printed_at": "2026-10-15T20:19:00+02:00",
+  "source_printed_at": "2026-10-19T10:30:00+02:00",
   "counts": {
     "partidos": 24,
     "jugados": 2,
-    "cambios": 0
+    "cambios": 1
   },
   "recent_runs": [
+    {
+      "at": "2026-10-19T10:30:52+02:00",
+      "outcome": "ok",
+      "origin": "programada",
+      "detail": "1 cambios"
+    },
     {
       "at": "2026-10-15T20:19:53+02:00",
       "outcome": "sin_cambios",

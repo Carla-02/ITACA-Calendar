@@ -11,7 +11,7 @@
     "url": "https://fvbcv.com/exportar_competiciones.php?idens=1823",
     "page": "https://fvbcv.com/competiciones/2a-division-senior-masculino-2026-2027/",
     "printed_tz": "UTC",
-    "printed_at": "2026-10-15T20:19:00+02:00"
+    "printed_at": "2026-10-19T10:30:00+02:00"
   },
   "matches": [
     {
@@ -47,10 +47,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -96,10 +96,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -120,10 +120,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -132,7 +132,7 @@
       "id": "g1-j04-cv-vila-real-cv-itaca-a",
       "jornada": 4,
       "date": "2026-10-24",
-      "time": null,
+      "time": "20:00",
       "bye": false,
       "home": "CV VILA-REAL",
       "away": "CV ITACA - A",
@@ -144,13 +144,13 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
-      "revision": 1,
-      "last_changed": "2026-10-13T20:35:00+02:00"
+      "revision": 2,
+      "last_changed": "2026-10-19T10:30:52+02:00"
     },
     {
       "id": "g1-j05-cv-itaca-a-cv-mediterraneo-c",
@@ -168,10 +168,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -192,10 +192,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -216,10 +216,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -240,10 +240,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -264,10 +264,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -288,10 +288,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -312,10 +312,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -336,10 +336,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -360,10 +360,10 @@
       "result": null,
       "status": "descanso",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -384,10 +384,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -408,10 +408,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -432,10 +432,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -456,10 +456,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -480,10 +480,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -504,10 +504,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -528,10 +528,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -552,10 +552,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -576,10 +576,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -600,10 +600,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -624,10 +624,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -648,10 +648,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -672,10 +672,10 @@
       "result": null,
       "status": "descanso",
       "source": {
-        "printed_at": "2026-10-15T20:19:00+02:00"
+        "printed_at": "2026-10-19T10:30:00+02:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-15T20:19:53+02:00",
+      "last_seen": "2026-10-19T10:30:52+02:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"

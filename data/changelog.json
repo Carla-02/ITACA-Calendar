@@ -128,5 +128,13 @@
     "at": "2026-10-13T20:35:00+02:00",
     "type": "nuevo",
     "id": "g1-j26-bye"
+  },
+  {
+    "at": "2026-10-19T10:30:52+02:00",
+    "type": "modificado",
+    "id": "g1-j04-cv-vila-real-cv-itaca-a",
+    "field": "time",
+    "old": null,
+    "new": "20:00"
   }
 ]
