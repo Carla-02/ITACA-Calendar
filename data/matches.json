@@ -11,7 +11,7 @@
     "url": "https://fvbcv.com/exportar_competiciones.php?idens=1823",
     "page": "https://fvbcv.com/competiciones/2a-division-senior-masculino-2026-2027/",
     "printed_tz": "UTC",
-    "printed_at": "2026-10-19T10:30:00+02:00"
+    "printed_at": "2026-10-26T10:28:00+01:00"
   },
   "matches": [
     {
@@ -47,10 +47,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -96,10 +96,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -107,7 +107,7 @@
     {
       "id": "g1-j03-cv-itaca-a-cv-stella-maris-nautilus",
       "jornada": 3,
-      "date": "2026-10-18",
+      "date": "2027-01-01",
       "time": "16:00",
       "bye": false,
       "home": "CV ITACA - A",
@@ -120,13 +120,13 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
-      "revision": 1,
-      "last_changed": "2026-10-13T20:35:00+02:00"
+      "revision": 2,
+      "last_changed": "2026-10-26T10:28:16+01:00"
     },
     {
       "id": "g1-j04-cv-vila-real-cv-itaca-a",
@@ -141,16 +141,37 @@
       "opponent_display": "Vila-real",
       "venue": "PAB. JB LLORENS (VILA-REAL)",
       "venue_display": "Pab. Jb Llorens (Vila-real)",
-      "result": null,
-      "status": "pendiente",
+      "result": {
+        "home_sets": 1,
+        "away_sets": 3,
+        "sets": [
+          [
+            20,
+            25
+          ],
+          [
+            22,
+            25
+          ],
+          [
+            26,
+            24
+          ],
+          [
+            19,
+            25
+          ]
+        ]
+      },
+      "status": "jugado",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
-      "revision": 2,
-      "last_changed": "2026-10-19T10:30:52+02:00"
+      "revision": 3,
+      "last_changed": "2026-10-26T10:28:16+01:00"
     },
     {
       "id": "g1-j05-cv-itaca-a-cv-mediterraneo-c",
@@ -168,10 +189,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -179,26 +200,26 @@
     {
       "id": "g1-j06-cv-morvedre-canet-cv-itaca-a",
       "jornada": 6,
-      "date": "2026-11-07",
-      "time": null,
+      "date": "2026-11-08",
+      "time": "16:00",
       "bye": false,
       "home": "CV MORVEDRE CANET",
       "away": "CV ITACA - A",
       "team_is_home": false,
       "opponent": "CV MORVEDRE CANET",
       "opponent_display": "Morvedre Canet",
-      "venue": "PISTA POLID. MUN. CANET D'EN BERENGUER",
-      "venue_display": "Pista Polid. Mun. Canet d'en Berenguer",
+      "venue": "PAB. CAMPUS ADVENTISTA (SAGUNTO) PISTA 1",
+      "venue_display": "Pab. Campus Adventista (Sagunto) Pista 1",
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
-      "revision": 1,
-      "last_changed": "2026-10-13T20:35:00+02:00"
+      "revision": 2,
+      "last_changed": "2026-10-26T10:28:16+01:00"
     },
     {
       "id": "g1-j07-cv-itaca-a-voley-quart",
@@ -216,10 +237,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -228,7 +249,7 @@
       "id": "g1-j08-cv-camp-de-turia-b-cv-itaca-a",
       "jornada": 8,
       "date": "2026-11-21",
-      "time": "20:00",
+      "time": "19:00",
       "bye": false,
       "home": "CV CAMP DE TURIA - B",
       "away": "CV ITACA - A",
@@ -240,13 +261,13 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
-      "revision": 1,
-      "last_changed": "2026-10-13T20:35:00+02:00"
+      "revision": 2,
+      "last_changed": "2026-10-26T10:28:16+01:00"
     },
     {
       "id": "g1-j09-cv-itaca-a-el-pilar-valencia",
@@ -264,10 +285,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -288,10 +309,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -312,10 +333,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -324,25 +345,25 @@
       "id": "g1-j12-cv-cid-campeador-negro-cv-itaca-a",
       "jornada": 12,
       "date": "2026-12-19",
-      "time": null,
+      "time": "16:00",
       "bye": false,
       "home": "CV CID CAMPEADOR NEGRO",
       "away": "CV ITACA - A",
       "team_is_home": false,
       "opponent": "CV CID CAMPEADOR NEGRO",
       "opponent_display": "Cid Campeador Negro",
-      "venue": "IES CID CAMPEADOR (VALENCIA)",
-      "venue_display": "Ies Cid Campeador (Valencia)",
+      "venue": "PAB. C.P. ELISEO VIDAL (VALENCIA)",
+      "venue_display": "Pab. C.P. Eliseo Vidal (Valencia)",
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
-      "revision": 1,
-      "last_changed": "2026-10-13T20:35:00+02:00"
+      "revision": 2,
+      "last_changed": "2026-10-26T10:28:16+01:00"
     },
     {
       "id": "g1-j13-bye",
@@ -360,10 +381,10 @@
       "result": null,
       "status": "descanso",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -371,8 +392,8 @@
     {
       "id": "g1-j14-cv-itaca-b-cv-itaca-a",
       "jornada": 14,
-      "date": "2027-01-17",
-      "time": null,
+      "date": "2027-01-16",
+      "time": "18:00",
       "bye": false,
       "home": "CV ITACA - B",
       "away": "CV ITACA - A",
@@ -384,13 +405,13 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
-      "revision": 1,
-      "last_changed": "2026-10-13T20:35:00+02:00"
+      "revision": 2,
+      "last_changed": "2026-10-26T10:28:16+01:00"
     },
     {
       "id": "g1-j15-cv-itaca-a-cv-cid-campeador-rojo",
@@ -408,10 +429,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -432,10 +453,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -456,10 +477,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -480,10 +501,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -504,10 +525,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -528,10 +549,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -552,10 +573,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -576,10 +597,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -600,10 +621,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -624,10 +645,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -648,10 +669,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -672,10 +693,10 @@
       "result": null,
       "status": "descanso",
       "source": {
-        "printed_at": "2026-10-19T10:30:00+02:00"
+        "printed_at": "2026-10-26T10:28:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-10-19T10:30:52+02:00",
+      "last_seen": "2026-10-26T10:28:16+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
