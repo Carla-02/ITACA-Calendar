@@ -11,7 +11,7 @@
     "url": "https://fvbcv.com/exportar_competiciones.php?idens=1823",
     "page": "https://fvbcv.com/competiciones/2a-division-senior-masculino-2026-2027/",
     "printed_tz": "UTC",
-    "printed_at": "2026-11-02T10:45:00+01:00"
+    "printed_at": "2026-11-09T10:48:00+01:00"
   },
   "matches": [
     {
@@ -47,10 +47,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -96,10 +96,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -120,10 +120,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 2,
       "last_changed": "2026-10-26T10:28:16+01:00"
@@ -165,10 +165,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 3,
       "last_changed": "2026-10-26T10:28:16+01:00"
@@ -206,10 +206,10 @@
       },
       "status": "jugado",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 2,
       "last_changed": "2026-11-02T10:45:47+01:00"
@@ -227,16 +227,33 @@
       "opponent_display": "Morvedre Canet",
       "venue": "PAB. CAMPUS ADVENTISTA (SAGUNTO) PISTA 1",
       "venue_display": "Pab. Campus Adventista (Sagunto) Pista 1",
-      "result": null,
-      "status": "pendiente",
+      "result": {
+        "home_sets": 3,
+        "away_sets": 0,
+        "sets": [
+          [
+            25,
+            20
+          ],
+          [
+            25,
+            20
+          ],
+          [
+            25,
+            18
+          ]
+        ]
+      },
+      "status": "jugado",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
-      "revision": 2,
-      "last_changed": "2026-10-26T10:28:16+01:00"
+      "revision": 3,
+      "last_changed": "2026-11-09T10:47:59+01:00"
     },
     {
       "id": "g1-j07-cv-itaca-a-voley-quart",
@@ -254,10 +271,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -278,10 +295,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 2,
       "last_changed": "2026-10-26T10:28:16+01:00"
@@ -302,10 +319,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -326,10 +343,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -350,10 +367,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -374,10 +391,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 2,
       "last_changed": "2026-10-26T10:28:16+01:00"
@@ -398,10 +415,10 @@
       "result": null,
       "status": "descanso",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -422,10 +439,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 2,
       "last_changed": "2026-10-26T10:28:16+01:00"
@@ -446,10 +463,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -470,10 +487,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -494,10 +511,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -518,10 +535,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -542,10 +559,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -561,18 +578,18 @@
       "team_is_home": false,
       "opponent": "VOLEY QUART",
       "opponent_display": "Voley Quart",
-      "venue": "C",
-      "venue_display": "C",
+      "venue": "PAB.MUN. QUART POBLET",
+      "venue_display": "Pab.Mun. Quart Poblet",
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
-      "revision": 2,
-      "last_changed": "2026-11-02T10:45:47+01:00"
+      "revision": 3,
+      "last_changed": "2026-11-09T10:47:59+01:00"
     },
     {
       "id": "g1-j21-cv-itaca-a-cv-camp-de-turia-b",
@@ -590,10 +607,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -614,10 +631,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -638,10 +655,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -662,10 +679,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -686,10 +703,10 @@
       "result": null,
       "status": "pendiente",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"
@@ -710,10 +727,10 @@
       "result": null,
       "status": "descanso",
       "source": {
-        "printed_at": "2026-11-02T10:45:00+01:00"
+        "printed_at": "2026-11-09T10:48:00+01:00"
       },
       "first_seen": "2026-10-13T20:35:00+02:00",
-      "last_seen": "2026-11-02T10:45:47+01:00",
+      "last_seen": "2026-11-09T10:47:59+01:00",
       "active": true,
       "revision": 1,
       "last_changed": "2026-10-13T20:35:00+02:00"

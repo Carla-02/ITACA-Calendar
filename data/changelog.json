@@ -270,5 +270,38 @@
     "field": "venue",
     "old": "PAB.MUN. QUART POBLET",
     "new": "C"
+  },
+  {
+    "at": "2026-11-09T10:47:59+01:00",
+    "type": "resultado",
+    "id": "g1-j06-cv-morvedre-canet-cv-itaca-a",
+    "field": "result",
+    "old": null,
+    "new": {
+      "home_sets": 3,
+      "away_sets": 0,
+      "sets": [
+        [
+          25,
+          20
+        ],
+        [
+          25,
+          20
+        ],
+        [
+          25,
+          18
+        ]
+      ]
+    }
+  },
+  {
+    "at": "2026-11-09T10:47:59+01:00",
+    "type": "modificado",
+    "id": "g1-j20-voley-quart-cv-itaca-a",
+    "field": "venue",
+    "old": "C",
+    "new": "PAB.MUN. QUART POBLET"
   }
 ]
