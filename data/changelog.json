@@ -303,5 +303,34 @@
     "field": "venue",
     "old": "C",
     "new": "PAB.MUN. QUART POBLET"
+  },
+  {
+    "at": "2026-11-16T11:10:33+01:00",
+    "type": "resultado",
+    "id": "g1-j07-cv-itaca-a-voley-quart",
+    "field": "result",
+    "old": null,
+    "new": {
+      "home_sets": 1,
+      "away_sets": 3,
+      "sets": [
+        [
+          25,
+          19
+        ],
+        [
+          23,
+          25
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          15,
+          25
+        ]
+      ]
+    }
   }
 ]
