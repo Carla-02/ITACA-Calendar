@@ -332,5 +332,46 @@
         ]
       ]
     }
+  },
+  {
+    "at": "2026-11-23T20:46:25+01:00",
+    "type": "resultado",
+    "id": "g1-j08-cv-camp-de-turia-b-cv-itaca-a",
+    "field": "result",
+    "old": null,
+    "new": {
+      "home_sets": 2,
+      "away_sets": 3,
+      "sets": [
+        [
+          25,
+          22
+        ],
+        [
+          16,
+          25
+        ],
+        [
+          26,
+          24
+        ],
+        [
+          22,
+          25
+        ],
+        [
+          10,
+          15
+        ]
+      ]
+    }
+  },
+  {
+    "at": "2026-11-23T20:46:25+01:00",
+    "type": "modificado",
+    "id": "g1-j10-blu-volley-mas-camarena-cv-itaca-a",
+    "field": "time",
+    "old": "18:00",
+    "new": "20:00"
   }
 ]
